@@ -7,5 +7,8 @@ public class Main {
         System.out.println("Total con impuestos: " +
                 v.calcularTotal(p, 2) * 1.21);
 
+        System.out.println("Total: " + v.calcularTotal(p, 2));
+        System.out.println("Total con descuento: " +
+                v.calcularTotalConDescuento(p, 2, 0.10));
     }
 }
