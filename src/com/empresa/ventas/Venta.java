@@ -8,5 +8,9 @@ public class Venta {
         double total = calcularTotal(producto, cantidad);
         return total - (total * descuento);
     }
+    public double calcularTotalConImpuesto(Producto producto, int cantidad, double impuesto) {
+        double total = calcularTotal(producto, cantidad);
+        return total + (total * impuesto);
+    }
 }
 
